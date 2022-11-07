@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/23-homework/static/css/main.224ab067.css",
+    "main.js": "/23-homework/static/js/main.e090f3af.js",
+    "static/js/787.297d9f49.chunk.js": "/23-homework/static/js/787.297d9f49.chunk.js",
+    "static/media/marge.png": "/23-homework/static/media/marge.f11c57cb1247a467798e.png",
+    "static/media/lisa.png": "/23-homework/static/media/lisa.a36a44da751733202119.png",
+    "static/media/maggie.png": "/23-homework/static/media/maggie.689671c7e426c0c052f1.png",
+    "static/media/homer.png": "/23-homework/static/media/homer.66d4a7cec6ea879f467d.png",
+    "static/media/bart.png": "/23-homework/static/media/bart.4b9a3eb876d4ef8b94d0.png",
+    "static/media/krusty.png": "/23-homework/static/media/krusty.d63bf3212cbcbeabccc5.png",
+    "static/media/doctor.png": "/23-homework/static/media/doctor.6613edaaa1e514317ae5.png",
+    "static/media/ralph.png": "/23-homework/static/media/ralph.81e1aa0397b94b03de76.png",
+    "static/media/bart.jpg": "/23-homework/static/media/bart.5c8fa1fd67317f0b0d3a.jpg",
+    "static/media/homer.jpg": "/23-homework/static/media/homer.15a6885d9b21033d1a70.jpg",
+    "static/media/repost.png": "/23-homework/static/media/repost.323f2b427b5d3248c8fe.png",
+    "static/media/like.png": "/23-homework/static/media/like.b66fbb3c02d15d611b06.png",
+    "index.html": "/23-homework/index.html",
+    "main.224ab067.css.map": "/23-homework/static/css/main.224ab067.css.map",
+    "main.e090f3af.js.map": "/23-homework/static/js/main.e090f3af.js.map",
+    "787.297d9f49.chunk.js.map": "/23-homework/static/js/787.297d9f49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.224ab067.css",
+    "static/js/main.e090f3af.js"
+  ]
+}
