@@ -1,0 +1,70 @@
+@import "../../main";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50px;
+
+  &__author {
+    padding-bottom: 10px;
+
+    &_option {
+      color: #828482;
+    }
+
+    & select {
+      padding: 5px 10px;
+      border-radius: 10px;
+      border: none;
+      font-family: $font;
+      box-shadow: 1px 1px 3px $shadow;
+    }
+  }
+
+  &__link {
+    padding-bottom: 10px;
+
+    & input {
+      padding: 5px 10px;
+      border-radius: 10px;
+      border: none;
+      font-family: $font;
+      box-shadow: 1px 1px 3px $shadow;
+      width: 400px;
+    }
+  }
+
+  &__content textarea {
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-family: $font;
+    box-shadow: 1px 1px 3px $shadow;
+    resize: none;
+    overflow: hidden;
+  }
+
+  &__button {
+    padding: 20px 0;
+
+    & button {
+      padding: 10px;
+      background: $btn;
+      color: $fontColorBtn;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 1px 1px 5px $shadow;
+      font-family: $font;
+      cursor: pointer;
+    }
+
+    & button:hover {
+      transition: 500ms;
+      box-shadow: 5px 5px 10px $shadow;
+    }
+  }
+}
