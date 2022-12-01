@@ -1,5 +1,3 @@
-import PostItemCSS from "../modules/PostItem/PostItem.module.scss";
-
 function buttonClickerLike(status, setStatus, dispatch) {
     if (status === "clickedLike") {
         setStatus(null)

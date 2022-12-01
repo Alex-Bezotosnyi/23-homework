@@ -1,9 +1,9 @@
-import Maggie from "../../assets/avatar/maggie.png";
-import Krusty from "../../assets/avatar/krusty.png";
-import Ralph from "../../assets/avatar/ralph.png";
-import Marge from "../../assets/avatar/marge.png";
-import Doctor from "../../assets/avatar/doctor.png";
 import {getDate} from "../../apps/functions";
+import Doctor from "../../assets/avatar/doctor.png";
+import Krusty from "../../assets/avatar/krusty.png";
+import Maggie from "../../assets/avatar/maggie.png";
+import Marge from "../../assets/avatar/marge.png";
+import Ralph from "../../assets/avatar/ralph.png";
 
 const newAuthor = [
   {

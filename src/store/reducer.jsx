@@ -1,5 +1,5 @@
 import {ADD_POST} from "./actions";
-import PostsData from "../apps/PostsData";
+import PostsData from "../components/apps/PostsData";
 
 const initialState = {
     posts: PostsData,

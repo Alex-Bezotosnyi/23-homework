@@ -1,11 +1,10 @@
 import React, {useReducer, useState} from "react";
-import {reducer} from "../../redux/reducer";
-import {buttonClickerLike, buttonClickerComment, buttonClickerRepost} from "../../apps/social";
-
-import PostItemCSS from "./PostItem.module.scss";
+import {buttonClickerComment, buttonClickerLike, buttonClickerRepost} from "../../apps/social";
+import {reducer} from "../../../store/reducer";
+import CommentImage from "../../assets/icons/comment.png"
 import LikeImage from "../../assets/icons/like.png"
 import RepostImage from "../../assets/icons/repost.png"
-import CommentImage from "../../assets/icons/comment.png"
+import PostItemCSS from "./PostItem.module.scss";
 
 function PostItem(props) {
     const {

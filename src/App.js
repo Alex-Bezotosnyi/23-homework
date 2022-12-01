@@ -1,7 +1,7 @@
 import React from "react";
 import {Provider} from "react-redux";
-import {store} from "../redux/store";
-import PostsModule from "../modules/PostsModule/PostsModule";
+import PostsModule from "./components/modules/PostsModule/PostsModule";
+import {store} from "./store/store";
 
 function App() {
     return (

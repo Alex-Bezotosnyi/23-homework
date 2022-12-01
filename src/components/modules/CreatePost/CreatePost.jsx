@@ -1,13 +1,12 @@
 import React, {useState} from "react";
 import {useDispatch} from "react-redux";
-import {addPost} from "../../redux/actions";
+import {addPost} from "../../../store/actions";
 import {DateNow} from "../../apps/functions";
 import newAuthor from "../NewAuthor/NewAuthor";
 import CreatePostCSS from "./CreatePostCSS.module.scss"
-import PostItemCSS from "../PostItem/PostItem.module.scss";
-import Maggie from "../../assets/avatar/maggie.png";
 
 function CreatePost() {
+
     const [author, setAuthor] = useState("");
     const [avatar, setAvatar] = useState("");
     const [nickname, setNickname] = useState("");
@@ -23,16 +22,15 @@ function CreatePost() {
         event.preventDefault();
         if (author && content) {
         dispatch(addPost({author, avatar, nickname, image, content, publishingDate, likes, comments, reposts}));
-
         setAuthor("");
         setAvatar("");
         setNickname("");
         setImage("");
         setContent("");
-        setPublishingDate("");
-        setLikes("");
-        setComments("");
-        setReposts("");
+        setPublishingDate(DateNow());
+        setLikes(0);
+        setComments(0);
+        setReposts(0);
         } else {
             alert("Please, fill fields 'Author' and 'Content'")
         }
